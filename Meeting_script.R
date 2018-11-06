@@ -25,7 +25,7 @@ library(ggmap)
 
 
 ##Create data frame with lat and long from GPS points
-d<-data.frame(lat=c(4.795535, 40.811577, 40.773502),lon=c(-96.670658, -96.688154, -96.62225))
+d<-data.frame(lat=c(40.795535, 40.811577, 40.773502),lon=c(-96.670658, -96.688154, -96.62225))
 
 NEmap<-get_map("Lincoln,Nebraska,USA", zoom=7)
 p<-ggmap(Lincmap)
